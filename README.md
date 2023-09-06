@@ -16,7 +16,7 @@ Welcome to the E-Commerce pressio project! This web application allows users to 
   
 ## Demo
 
-You can check out a live demo of the project at [Demo Link](https://github.com/EngMeow/e-commerce-pressio).
+You can check out a live demo of the project at [Demo Link](https://github.com/EngMeow/e-commerce-pressio/html/home.html).
 
 ## Features
 
