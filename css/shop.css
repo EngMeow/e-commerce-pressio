@@ -1,0 +1,215 @@
+/*--- global rules --- */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+/* ========= nav bar part 1========== */
+.navBar{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    z-index: 9;
+    justify-content: center;
+    height: 200px;
+    padding: 10px;
+}
+
+.logo{
+    width: 40%;
+    height: 100%;
+    padding-left: 50px;
+}
+.logoPic{
+    width: 100%;
+    height: 100%;
+}
+.listMenu{
+    opacity: 0;
+    /* display:none; */
+    transition: opacity 1s;
+}
+.menu{
+    width: 60%;
+    height: 90%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+}
+.logoPic{
+    height: 100%;
+    width: auto;
+}
+#listClick{
+    width: 75px;
+    height: auto;
+    color: rgb(16, 110, 66);
+
+}
+.menuList{
+    display: flex;
+    flex-direction: row;
+    font: 20px ;
+    color: rgb(16, 110, 66);
+    padding: 20px;
+    justify-content: space-around;
+    width: 600px;
+}
+/*===========================================================
+================== sections  ==============================*/ 
+.sections{
+    background-color: rgb(255, 154, 3);
+}
+
+.shopMailLine{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    padding:50px;
+    color:rgb(16, 110, 66);
+    font-weight: 800;
+}
+.sectionsPhoto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px;
+}
+.secImage{
+    height: 300px;
+    width: 20%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+/* .shopCell{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+} */
+
+/*===========================================================
+================== down page  ==============================*/ 
+.sectionsSort{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    width: 500px;
+}
+
+.priceSort{
+    height: 30px;
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#price{
+    width: 120px;
+    height: 30px;
+}
+.Type{
+    width: 120px;
+    height: 30px;
+    
+}
+.typeSort{
+    height: 30px;
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.shoPart{
+    background-color: rgb(255, 154, 3);
+    height: 1000px;
+    overflow: auto;
+}
+.shopColumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+}
+.shopRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.shopCell{
+    background-color: white;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    width: 250px;
+    height: 400px;
+}
+.cellImg{
+    height: auto;
+    width: 150px;
+}
+
+.productBtn{
+    width: 120px;
+    height: 50px;
+    border: none;
+    background-color: rgb(16, 110, 66);
+    color: white;
+}
+/*===========================================================
+================== down page  ==============================*/ 
+.downPage{
+    box-sizing: border-box;
+    padding: 30px;
+    
+}
+.downDetails{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:flex-start;
+}
+.downContent{
+    display: flex;
+    flex-direction: row;
+    color: rgb(16, 110, 66);
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.downTableIteams{
+    height: 40px;
+}
+.downTable{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.payment{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    scale: 0.5;
+}

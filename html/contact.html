@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <!--global css to main projects--> 
+    <link rel="stylesheet" href="../css/normilize.css">
+    <!--global css to main projects--> 
+    <link rel="stylesheet" href="../css/contact.css">
+    <!--global fonts--> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;400;700&family=Work+Sans:wght@200;400;800&display=swap" rel="stylesheet">    
+    <!--font awesome link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" /> 
+</head>
+<body>
+    <div class="container">
+        <!--========================================================
+            ============= Nav bar=============================== --> 
+            <div class="navBar">
+                <div class="logo">
+                    <a href="./home.html" class="linkLogoPic"><img src="../img/main page/navbar/logo.jpg" alt="logo" class="logoPic"></a>
+                </div>
+                <div class="menu">
+                    <div class="listMenu">
+                        <ul type="none" class="menuList" >
+                            <a style="text-decoration:none;color: inherit" href="./home.html" ><li class="listShow">Home</li></a>
+                            <a style="text-decoration:none;color: inherit" href="./about.html" ><li class="listShow">About</li></a>
+                            <a style="text-decoration:none;color: inherit" href="./shop.html" ><li class="listShow">Shop</li></a>
+                            <a style="text-decoration:none;color: inherit" href="./contact.html" ><li class="listShow">Contact Us</li></a>
+                            <a style="text-decoration:none;color: inherit" href="./logIn.html" ><li class="listShow">Log In </li></a>
+                            <a style="text-decoration:none;color: inherit" href="./home.html" ><li class="listShow"><i class="fa-solid fa-cart-shopping"></i></li></a>
+                            <a style="text-decoration:none;color: inherit" href="./home.html" ><li class="listShow"><i class="fa-solid fa-magnifying-glass"></i></i></li></a>
+                    </div>
+                    <div>
+                        <i onclick="showMenu()" id="listClick" ondoubleclick="hideMenu()" class="fa-solid fa-bars-staggered fa-2xl"></i>               
+                    </div>
+                </div>
+            </div>
+        <!--=================================
+            =========== contact us ===============-->
+            
+                <form class="contactUs">
+                <p class="mainContact">Contact Us</p>
+                <input class="contact" required type="text" placeholder="Name">
+                <input class="contact" required type="email" placeholder="E-mail" pattern="^[\w-\.]+@([\w-]+\)+.[\w-]$">
+                <input class="contact" required type="number" placeholder="Phone number">
+                <input class="contact" required type="text" placeholder="Message">
+                <input id="contactBtn" class="contact"  type="submit" value="Send" onclick="document.forms[0].submit()">
+            </form>
+            
+
+          <!--=================================================================================
+          ======  donw page ==============================================================--> 
+          <div class="downPage">
+            <!-- <div class="downText"> Hope to see you soon </div> -->
+
+            <div class="downDetails">
+                
+                <div class="downContent">
+                    <ul type="none" class="downTable">
+                        <a style="text-decoration:none;color: inherit" href="./home.html" ><li class="downTableIteams">Home</li></a>
+                        <a style="text-decoration:none;color: inherit" href="./about.html" ><li class="downTableIteams">About</li></a>
+                        <a style="text-decoration:none;color: inherit" href="./shop.html" ><li class="downTableIteams">Shop</li></a>
+                        <a style="text-decoration:none;color: inherit" href="./contact.html" ><li class="downTableIteams">Contact Us</li></a>
+                        <!-- <a style="text-decoration:none;color: inherit" href="./logIn.html" ><li class="downTableIteams">Log In </li></a> -->
+                  </ul>
+                </div>
+                <div class="downContent">
+                    <ul type="none" class="downTable">
+                        <a style="text-decoration:none;color: inherit" href="home.html" class="downTableIteams">Privacy policy</li></a>
+                        <a style="text-decoration:none;color: inherit" href="home.html" class="downTableIteams">career at pressio</li></a>
+                        <a style="text-decoration:none;color: inherit" href="home.html"><li class="downTableIteams">Delivery & returns</li></a>
+                        <a style="text-decoration:none;color: inherit" href="home.html"><li class="downTableIteams">Investors' site</li></a>
+                    </ul>
+                </div>
+                <div class="downContent">
+                    <ul type="none" class="downTable">
+                        <a style="text-decoration:none;color: inherit" href="https://www.google.com/maps/place/ITI+Menofia+Branch/@30.5579735,31.0210784,17z/data=!3m1!4b1!4m6!3m5!1s0x14f7d7223ff2d63f:0x9d531b61c0ebb81b!8m2!3d30.5579735!4d31.0188897!16s%2Fg%2F11l40_1jvc?entry=ttu" ><li class="downTableIteams"><i class="fa-solid fa-location-dot fa-2xl"></i> Our branches</li></a>
+                        <a style="text-decoration:none;color: inherit" href="https://api.whatsapp.com/send/?phone=01148425094&text=hi+there+hanna%27s+bakery+staff&type=phone_number&app_absent=0" ><li class="downTableIteams"><i class="fa-solid fa-user-tie fa-2xl"></i> whatsapp</li></a>
+                        <a style="text-decoration:none;color: inherit" href="tel:01002762845" ><li class="downTableIteams"><i class="fa-solid fa-phone fa-2xl"></i> Call us</li></a>
+                        <a style="text-decoration:none;color: inherit" href="mailto:mohamed.basyoni02@gmail.com" ><li class="downTableIteams"><i class="fa-solid fa-envelope fa-2xl"></i> demo@gmail.com</li></a>
+                    </ul>
+                </div>
+                <div class="downContent">
+                    <ul type="none" class="downTable">
+                        <a style="text-decoration:none;color: inherit" href="https://www.facebook.com/Engo.dynamic/" ><li class="downTableIteams"><i class="fa-brands fa-facebook fa-2xl"></i></i> join us on facebook</li></a>
+                        <a style="text-decoration:none;color: inherit" href="https://www.linkedin.com/in/mohamedalshafiy/" ><li class="downTableIteams"><i class="fa-brands fa-linkedin fa-2xl"></i></i> join us on linkedIn</li></a>
+                        <a style="text-decoration:none;color: inherit" href="https://github.com/EngMeow" ><li class="downTableIteams"><i class="fa-brands fa-github fa-2xl"></i> join us on Github</li></a>
+                        <a style="text-decoration:none;color: inherit" href="https://www.youtube.com/channel/UCJQrB4QnchmpZnCcQi5Wllg" ><li class="downTableIteams"><i class="fa-brands fa-youtube fa-2xl"></i></i> join us on youtube</li></a>
+                    </ul>
+                </div>
+            </div>
+            <div class="payment">
+                <img src="../img/single.png" alt="">
+            </div>
+        </div>
+        </div>
+    <script src="../js/home.js"></script>
+    </div>
+    <script src="../js/contact.js"></script>
+</body>
+</html>

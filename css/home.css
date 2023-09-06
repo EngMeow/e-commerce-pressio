@@ -1,0 +1,170 @@
+/*--- global rules --- */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+/* ========= nav bar part 1========== */
+.navBar{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    z-index: 9;
+    justify-content: center;
+    height: 200px;
+    padding: 10px;
+}
+
+.logo{
+    width: 40%;
+    height: 100%;
+    padding-left: 50px;
+}
+.logoPic{
+    width: 100%;
+    height: 100%;
+}
+.listMenu{
+    opacity: 0;
+    /* display:none; */
+    transition: opacity 1s;
+}
+.menu{
+    width: 60%;
+    height: 90%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+}
+.logoPic{
+    height: 100%;
+    width: auto;
+}
+#listClick{
+    width: 75px;
+    height: auto;
+    color: rgb(16, 110, 66);
+
+}
+.menuList{
+    display: flex;
+    flex-direction: row;
+    font: 20px ;
+    color: rgb(16, 110, 66);
+    padding: 20px;
+    justify-content: space-around;
+    width: 600px;
+}
+/*===========================================================
+================== home page  ==============================*/ 
+.homePage{
+    height: 600px;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.mainImg{
+    width: 70%;
+}
+#switchImg{
+    height: 100%;
+    width: 80%;
+}
+.mainText{
+    color: rgb(16, 110, 66);
+    width: 30%;
+    font-size: 15px;
+}
+.mainLine{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#shopNow{
+    color: rgb(16, 110, 66);
+    background-color: rgb(248, 150, 39);
+    width: 150px;
+    height: 50px;
+    border: 0;
+}
+
+.left-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+    height: auto;
+    padding: 30px;
+}
+/*===========================================================
+================== sections  ==============================*/ 
+.sections{
+    height: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(248, 150, 39);;
+    padding: 15px;
+}
+.sections1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sections2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.secImage{
+    height: 500px;
+    box-sizing: border-box;
+    width:100%;
+    padding: 15px;
+}
+/*===========================================================
+================== down page  ==============================*/ 
+.downPage{
+    box-sizing: border-box;
+    padding: 30px;
+    
+}
+.downDetails{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:flex-start;
+}
+.downContent{
+    display: flex;
+    flex-direction: row;
+    color: rgb(16, 110, 66);
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.downTableIteams{
+    height: 40px;
+}
+.downTable{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.payment{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    scale: 0.5;
+}

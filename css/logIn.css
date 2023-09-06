@@ -1,0 +1,134 @@
+/*--- global rules --- */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+/* ========= nav bar part 1========== */
+.navBar{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    z-index: 9;
+    justify-content: center;
+    height: 200px;
+    padding: 10px;
+}
+
+.logo{
+    width: 40%;
+    height: 100%;
+    padding-left: 50px;
+}
+.logoPic{
+    width: 100%;
+    height: 100%;
+}
+.listMenu{
+    opacity: 0;
+    /* display:none; */
+    transition: opacity 1s;
+}
+.menu{
+    width: 60%;
+    height: 90%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+}
+.logoPic{
+    height: 100%;
+    width: auto;
+}
+#listClick{
+    width: 75px;
+    height: auto;
+    color: rgb(16, 110, 66);
+
+}
+.menuList{
+    display: flex;
+    flex-direction: row;
+    font: 20px ;
+    color: rgb(16, 110, 66);
+    padding: 20px;
+    justify-content: space-around;
+    width: 600px;
+}
+/*===========================================================
+================== Log In page  ==============================*/ 
+.logDiv{
+    background-color: rgb(255, 154, 3);
+    padding: 30px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logMaintext{
+    font-size: 50px;
+    font-weight: 800;
+    padding-left: 30px;
+    color: rgb(16, 110, 66);
+}
+.logSec{
+    padding: 30px;
+    border-radius: 50px;
+    height: 100px;
+    border: none;
+    width: 500px;
+    columns: rgb(16, 110, 66);
+}
+.logBtn{
+    padding: 30px;
+    border-radius: 50px;
+    border: none    ;
+    height: 100px;
+    width: 200px;
+    color: rgb(16, 110, 66);
+}
+/*===========================================================
+================== down page  ==============================*/ 
+.downPage{
+    box-sizing: border-box;
+    padding: 30px;
+    
+}
+.downDetails{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:flex-start;
+}
+.downContent{
+    display: flex;
+    flex-direction: row;
+    color: rgb(16, 110, 66);
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.downTableIteams{
+    height: 40px;
+}
+.downTable{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.payment{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    scale: 0.5;
+}

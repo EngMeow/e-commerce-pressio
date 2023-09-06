@@ -1,0 +1,136 @@
+/*--- global rules --- */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+/* ========= nav bar part 1========== */
+.navBar{
+    display: flex;
+    flex-direction: row;
+    position:relative;
+    z-index: 9;
+    justify-content: center;
+    height: 200px;
+    padding: 10px;
+}
+
+.logo{
+    width: 40%;
+    height: 100%;
+    padding-left: 50px;
+}
+.menu{
+    width: 60%;
+    height: 90%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+}
+.logoPic{
+    height: 100%;
+    width: auto;
+}
+
+.listMenu{
+    opacity: 0;
+    /* display:none; */
+    transition: opacity 1s;
+}
+#listClick{
+    width: 75px;
+    height: auto;
+    color: rgb(16, 110, 66);
+
+}
+.menuList{
+    display: flex;
+    flex-direction: row;
+    font: 20px ;
+    color: rgb(16, 110, 66);
+    padding: 20px;
+    justify-content: space-around;
+    width: 600px;
+}
+/*===========================================================
+================== contact Us page  ==============================*/
+
+
+.contactUs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    height: 1000px;
+    background-color: rgb(255, 154, 3);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding: 50px;
+}
+.mainContact{
+    height: 100px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight:800;
+    color: rgb(16, 110, 66);
+}
+.contact{
+    
+    height: 100px;
+    width: 500px;
+    padding: 30px;
+    border: none;
+}
+
+#contactBtn{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(16, 110, 66);
+    font-size: 20px;
+    color: rgb(255, 154, 3);
+}
+/*===========================================================
+================== down page  ==============================*/ 
+.downPage{
+    box-sizing: border-box;
+    padding: 30px;
+    
+}
+.downDetails{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:flex-start;
+}
+.downContent{
+    display: flex;
+    flex-direction: row;
+    color: rgb(16, 110, 66);
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.downTableIteams{
+    height: 40px;
+}
+.downTable{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.payment{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    scale: 0.5;
+}
